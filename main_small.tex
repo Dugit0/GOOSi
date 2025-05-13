@@ -73,13 +73,13 @@
 \setlength\parindent{0pt}
 
 % \setlength{\leftmargini}{10pt}  % чтоб отступы в итемайзах были поменьше
+\setlistdepth{5} 
+\setlist[itemize,1]{label=$\bullet$, leftmargin=0em, itemindent = 1.2em}
+\setlist[itemize,2]{label=$\circ$, leftmargin=1em, itemindent = 1.2em}
+\setlist[itemize,3]{label=$\star$, leftmargin=2em, itemindent = 1.2em}
+\setlist[itemize,4]{label=$\diamond$, leftmargin=3em, itemindent = 1.2em}
+\setlist[itemize,5]{label=$\triangleright$, leftmargin=4em, itemindent = 1.2em}
 
-\newlist{itemize2}{enumerate}{1}
-\setlist[itemize2,1]{label = $\bullet$, leftmargin=0em, itemindent = 1.2em}
-
-\renewenvironment{itemize}
-{\begin{itemize2}}
-{\end{itemize2}}
 \begin{document}
 
 % ------------------------- ПРЕЛЮДИЯ -----------------------------

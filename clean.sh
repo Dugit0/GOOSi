@@ -12,3 +12,4 @@ rm -v *.toc
 rm -v main_big.pdf
 rm -v main_small.pdf
 rm -v tickets/*.aux
+rm -v tickets_small/*.aux

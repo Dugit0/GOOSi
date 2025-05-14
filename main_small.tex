@@ -15,6 +15,7 @@
 \usepackage{enumitem}
 \usepackage{algorithm}
 \usepackage{algorithmic}
+\usepackage{gensymb}
 \usepackage{makecell}  % для переноса строк в таблицах
 \usepackage[backend=biber, style=authortitle]{biblatex}  % для ссылок на литературу
 \addbibresource{references.bib}
@@ -73,7 +74,7 @@
 \setlength\parindent{0pt}
 
 % \setlength{\leftmargini}{10pt}  % чтоб отступы в итемайзах были поменьше
-\setlistdepth{5} 
+\setlistdepth{5}
 \setlist[itemize,1]{label=$\bullet$, leftmargin=0em, itemindent = 1.2em}
 \setlist[itemize,2]{label=$\circ$, leftmargin=1em, itemindent = 1.2em}
 \setlist[itemize,3]{label=$\star$, leftmargin=2em, itemindent = 1.2em}
@@ -89,15 +90,15 @@
 \begin{tcolorbox}[colback=white, left=0mm, right=0mm]
 \begin{multicols}{4}
 %---------------------0--------------------
-\input{tickets/questions_osn}
+\input{tickets_small/questions_osn}
 \vfill\null
 \columnbreak
 %---------------------1--------------------
-\input{tickets/anekdoty}
+\input{tickets_small/anekdoty}
 \vfill\null
 \columnbreak
 %---------------------2--------------------
-\input{tickets/titul}
+\input{tickets_small/titul}
 \vfill\null
 \columnbreak
 %---------------------3--------------------
@@ -128,7 +129,7 @@
 \vfill\null
 \columnbreak
 %---------------------3--------------------
-\input{tickets/questions_dop}
+\input{tickets_small/questions_dop}
 \vfill\null
 \columnbreak
 %---------------------
@@ -142,19 +143,19 @@
 \begin{tcolorbox}[colback=white, left=0mm, right=0mm]
 \begin{multicols}{4}
 %---------------------0--------------------
-\input{tickets/t_osn01}
+\input{tickets_small/t_osn01}
 \vfill\null
 \columnbreak
 %---------------------1--------------------
-\input{tickets/t_osn03}
+\input{tickets_small/t_osn03}
 \vfill\null
 \columnbreak
 %---------------------2--------------------
-\input{tickets/t_osn05}
+\input{tickets_small/t_osn05}
 \vfill\null
 \columnbreak
 %---------------------3--------------------
-\input{tickets/t_osn07}
+\input{tickets_small/t_osn07}
 \vfill\null
 \columnbreak
 %---------------------
@@ -169,19 +170,19 @@
 \begin{tcolorbox}[colback=white, left=0mm, right=0mm]
 \begin{multicols}{4}
 %---------------------0--------------------
-\input{tickets/t_osn08}
+\input{tickets_small/t_osn08}
 \vfill\null
 \columnbreak
 %---------------------1--------------------
-\input{tickets/t_osn06}
+\input{tickets_small/t_osn06}
 \vfill\null
 \columnbreak
 %---------------------2--------------------
-\input{tickets/t_osn04}
+\input{tickets_small/t_osn04}
 \vfill\null
 \columnbreak
 %---------------------3--------------------
-\input{tickets/t_osn02}
+\input{tickets_small/t_osn02}
 \vfill\null
 \columnbreak
 %---------------------
@@ -196,19 +197,19 @@
 \begin{tcolorbox}[colback=white, left=0mm, right=0mm]
 \begin{multicols}{4}
 %---------------------0--------------------
-\input{tickets/t_osn09}
+\input{tickets_small/t_osn09}
 \vfill\null
 \columnbreak
 %---------------------1--------------------
-\input{tickets/t_osn11}
+\input{tickets_small/t_osn11}
 \vfill\null
 \columnbreak
 %---------------------2--------------------
-\input{tickets/t_osn13}
+\input{tickets_small/t_osn13}
 \vfill\null
 \columnbreak
 %---------------------3--------------------
-\input{tickets/t_osn15}
+\input{tickets_small/t_osn15}
 \vfill\null
 \columnbreak
 %---------------------
@@ -222,47 +223,19 @@
 \begin{tcolorbox}[colback=white, left=0mm, right=0mm]
 \begin{multicols}{4}
 %---------------------0--------------------
-\input{tickets/t_osn16}
+\input{tickets_small/t_osn16}
 \vfill\null
 \columnbreak
 %---------------------1--------------------
-\input{tickets/t_osn14}
+\input{tickets_small/t_osn14}
 \vfill\null
 \columnbreak
 %---------------------2--------------------
-\input{tickets/t_osn12}
+\input{tickets_small/t_osn12}
 \vfill\null
 \columnbreak
 %---------------------3--------------------
-\input{tickets/t_osn10}
-\vfill\null
-\columnbreak
-%---------------------
-\end{multicols}
-\end{tcolorbox}
-% --- END OF PAGE ----
-
-
-
-% --- BEGIN OF PAGE ----
-\newpage
-\begin{tcolorbox}[colback=white, left=0mm, right=0mm]
-\begin{multicols}{4}
-%---------------------0--------------------
-\input{tickets/t_osn17}
-\vfill\null
-\columnbreak
-%---------------------1--------------------
-\input{tickets/t_osn19}
-\vfill\null
-\columnbreak
-%---------------------2--------------------
-\input{tickets/t_osn21}
-\vfill\null
-\columnbreak
-%---------------------3--------------------
-% \input{tickets/t_osn23}
-\input{tickets/t_osn23}
+\input{tickets_small/t_osn10}
 \vfill\null
 \columnbreak
 %---------------------
@@ -277,19 +250,20 @@
 \begin{tcolorbox}[colback=white, left=0mm, right=0mm]
 \begin{multicols}{4}
 %---------------------0--------------------
-\input{tickets/t_osn24}
+\input{tickets_small/t_osn17}
 \vfill\null
 \columnbreak
 %---------------------1--------------------
-\input{tickets/t_osn22}
+\input{tickets_small/t_osn19}
 \vfill\null
 \columnbreak
 %---------------------2--------------------
-\input{tickets/t_osn20}
+\input{tickets_small/t_osn21}
 \vfill\null
 \columnbreak
 %---------------------3--------------------
-\input{tickets/t_osn18}
+% \input{tickets_small/t_osn23}
+\input{tickets_small/t_osn23}
 \vfill\null
 \columnbreak
 %---------------------
@@ -304,19 +278,19 @@
 \begin{tcolorbox}[colback=white, left=0mm, right=0mm]
 \begin{multicols}{4}
 %---------------------0--------------------
-\input{tickets/t_osn25}
+\input{tickets_small/t_osn24}
 \vfill\null
 \columnbreak
 %---------------------1--------------------
-\input{tickets/t_osn27}
+\input{tickets_small/t_osn22}
 \vfill\null
 \columnbreak
 %---------------------2--------------------
-\input{tickets/t_osn29}
+\input{tickets_small/t_osn20}
 \vfill\null
 \columnbreak
 %---------------------3--------------------
-\input{tickets/t_osn31}
+\input{tickets_small/t_osn18}
 \vfill\null
 \columnbreak
 %---------------------
@@ -331,19 +305,19 @@
 \begin{tcolorbox}[colback=white, left=0mm, right=0mm]
 \begin{multicols}{4}
 %---------------------0--------------------
-\input{tickets/t_osn32}
+\input{tickets_small/t_osn25}
 \vfill\null
 \columnbreak
 %---------------------1--------------------
-\input{tickets/t_osn30}
+\input{tickets_small/t_osn27}
 \vfill\null
 \columnbreak
 %---------------------2--------------------
-\input{tickets/t_osn28}
+\input{tickets_small/t_osn29}
 \vfill\null
 \columnbreak
 %---------------------3--------------------
-\input{tickets/t_osn26}
+\input{tickets_small/t_osn31}
 \vfill\null
 \columnbreak
 %---------------------
@@ -358,11 +332,38 @@
 \begin{tcolorbox}[colback=white, left=0mm, right=0mm]
 \begin{multicols}{4}
 %---------------------0--------------------
-\input{tickets/t_osn33}
+\input{tickets_small/t_osn32}
+\vfill\null
+\columnbreak
+%---------------------1--------------------
+\input{tickets_small/t_osn30}
+\vfill\null
+\columnbreak
+%---------------------2--------------------
+\input{tickets_small/t_osn28}
+\vfill\null
+\columnbreak
+%---------------------3--------------------
+\input{tickets_small/t_osn26}
+\vfill\null
+\columnbreak
+%---------------------
+\end{multicols}
+\end{tcolorbox}
+% --- END OF PAGE ----
+
+
+
+% --- BEGIN OF PAGE ----
+\newpage
+\begin{tcolorbox}[colback=white, left=0mm, right=0mm]
+\begin{multicols}{4}
+%---------------------0--------------------
+\input{tickets_small/t_osn33}
 \vfill\null
 \columnbreak
 %---------------------0--------------------
-\input{tickets/t_osn34}
+\input{tickets_small/t_osn34}
 \vfill\null
 \columnbreak
 %---------------------
@@ -380,19 +381,19 @@
 \begin{tcolorbox}[colback=white, left=0mm, right=0mm]
 \begin{multicols}{4}
 %---------------------0--------------------
-\input{tickets/t_dop01}
+\input{tickets_small/t_dop01}
 \vfill\null
 \columnbreak
 %---------------------1--------------------
-\input{tickets/t_dop03}
+\input{tickets_small/t_dop03}
 \vfill\null
 \columnbreak
 %---------------------2--------------------
-\input{tickets/t_dop05}
+\input{tickets_small/t_dop05}
 \vfill\null
 \columnbreak
 %---------------------3--------------------
-\input{tickets/t_dop07}
+\input{tickets_small/t_dop07}
 \vfill\null
 \columnbreak
 %---------------------
@@ -407,19 +408,19 @@
 \begin{tcolorbox}[colback=white, left=0mm, right=0mm]
 \begin{multicols}{4}
 %---------------------0--------------------
-\input{tickets/t_dop08}
+\input{tickets_small/t_dop08}
 \vfill\null
 \columnbreak
 %---------------------1--------------------
-\input{tickets/t_dop06}
+\input{tickets_small/t_dop06}
 \vfill\null
 \columnbreak
 %---------------------2--------------------
-\input{tickets/t_dop04}
+\input{tickets_small/t_dop04}
 \vfill\null
 \columnbreak
 %---------------------3--------------------
-\input{tickets/t_dop02}
+\input{tickets_small/t_dop02}
 \vfill\null
 \columnbreak
 %---------------------
@@ -434,19 +435,19 @@
 \begin{tcolorbox}[colback=white, left=0mm, right=0mm]
 \begin{multicols}{4}
 %---------------------0--------------------
-\input{tickets/t_dop09}
+\input{tickets_small/t_dop09}
 \vfill\null
 \columnbreak
 %---------------------1--------------------
-\input{tickets/t_dop11}
+\input{tickets_small/t_dop11}
 \vfill\null
 \columnbreak
 %---------------------2--------------------
-\input{tickets/t_dop13}
+\input{tickets_small/t_dop13}
 \vfill\null
 \columnbreak
 %---------------------3--------------------
-\input{tickets/t_dop15}
+\input{tickets_small/t_dop15}
 \vfill\null
 \columnbreak
 %---------------------
@@ -460,46 +461,19 @@
 \begin{tcolorbox}[colback=white, left=0mm, right=0mm]
 \begin{multicols}{4}
 %---------------------0--------------------
-\input{tickets/t_dop16}
+\input{tickets_small/t_dop16}
 \vfill\null
 \columnbreak
 %---------------------1--------------------
-\input{tickets/t_dop14}
+\input{tickets_small/t_dop14}
 \vfill\null
 \columnbreak
 %---------------------2--------------------
-\input{tickets/t_dop12}
+\input{tickets_small/t_dop12}
 \vfill\null
 \columnbreak
 %---------------------3--------------------
-\input{tickets/t_dop10}
-\vfill\null
-\columnbreak
-%---------------------
-\end{multicols}
-\end{tcolorbox}
-% --- END OF PAGE ----
-
-
-
-% --- BEGIN OF PAGE ----
-\newpage
-\begin{tcolorbox}[colback=white, left=0mm, right=0mm]
-\begin{multicols}{4}
-%---------------------0--------------------
-\input{tickets/t_dop17}
-\vfill\null
-\columnbreak
-%---------------------1--------------------
-\input{tickets/t_dop19}
-\vfill\null
-\columnbreak
-%---------------------2--------------------
-\input{tickets/t_dop21}
-\vfill\null
-\columnbreak
-%---------------------3--------------------
-\input{tickets/t_dop23}
+\input{tickets_small/t_dop10}
 \vfill\null
 \columnbreak
 %---------------------
@@ -514,19 +488,19 @@
 \begin{tcolorbox}[colback=white, left=0mm, right=0mm]
 \begin{multicols}{4}
 %---------------------0--------------------
-\input{tickets/t_dop24}
+\input{tickets_small/t_dop17}
 \vfill\null
 \columnbreak
 %---------------------1--------------------
-\input{tickets/t_dop22}
+\input{tickets_small/t_dop19}
 \vfill\null
 \columnbreak
 %---------------------2--------------------
-\input{tickets/t_dop20}
+\input{tickets_small/t_dop21}
 \vfill\null
 \columnbreak
 %---------------------3--------------------
-\input{tickets/t_dop18}
+\input{tickets_small/t_dop23}
 \vfill\null
 \columnbreak
 %---------------------
@@ -541,15 +515,42 @@
 \begin{tcolorbox}[colback=white, left=0mm, right=0mm]
 \begin{multicols}{4}
 %---------------------0--------------------
-\input{tickets/t_dop25}
+\input{tickets_small/t_dop24}
 \vfill\null
 \columnbreak
 %---------------------1--------------------
-\input{tickets/t_dop27}
+\input{tickets_small/t_dop22}
 \vfill\null
 \columnbreak
 %---------------------2--------------------
-\input{tickets/t_dop29}
+\input{tickets_small/t_dop20}
+\vfill\null
+\columnbreak
+%---------------------3--------------------
+\input{tickets_small/t_dop18}
+\vfill\null
+\columnbreak
+%---------------------
+\end{multicols}
+\end{tcolorbox}
+% --- END OF PAGE ----
+
+
+
+% --- BEGIN OF PAGE ----
+\newpage
+\begin{tcolorbox}[colback=white, left=0mm, right=0mm]
+\begin{multicols}{4}
+%---------------------0--------------------
+\input{tickets_small/t_dop25}
+\vfill\null
+\columnbreak
+%---------------------1--------------------
+\input{tickets_small/t_dop27}
+\vfill\null
+\columnbreak
+%---------------------2--------------------
+\input{tickets_small/t_dop29}
 \vfill\null
 \columnbreak
 %---------------------
@@ -568,15 +569,15 @@
 \vfill\null
 \columnbreak
 %---------------------1--------------------
-\input{tickets/t_dop30}
+\input{tickets_small/t_dop30}
 \vfill\null
 \columnbreak
 %---------------------2--------------------
-\input{tickets/t_dop28}
+\input{tickets_small/t_dop28}
 \vfill\null
 \columnbreak
 %---------------------3--------------------
-\input{tickets/t_dop26}
+\input{tickets_small/t_dop26}
 \vfill\null
 \columnbreak
 %---------------------
